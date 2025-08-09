@@ -77,11 +77,11 @@ cd BTS2025
 pip install -r requirements.txt
 
 # Preprocess BraTS dataset to HDF5
-python preprocess.py --data_dir <BraTS_data_path>
+#python preprocess.py --data_dir <BraTS_data_path>
 
 # Train the model
-python train.py --epochs 50 --batch_size 4
+#python train.py --epochs 50 --batch_size 4
 
 # Evaluate the model
-python evaluate.py --model_path saved_model.h5
+#python evaluate.py --model_path saved_model.h5
 ```
