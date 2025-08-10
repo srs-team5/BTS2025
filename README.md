@@ -21,7 +21,7 @@ By improving DR-Unet104, we aim to:
 2. Reduce computational complexity.
 3. Provide an open-source, clinically relevant AI solution.
 
-![alt text](flowDiagram.jpg)
+![alt text](images/Fig-5.png)
 
 ---
 
@@ -53,6 +53,8 @@ By improving DR-Unet104, we aim to:
 | **Augmentation**         | Basic flips                   | Basic flips          |
 | **Evaluation Metrics**   | DSC, HD95                     | DSC, HD95            |
 
+![alt text](images/Fig-6a.png)
+![alt text](images/Fig-6b.png)
 ---
 
 ## 📈 Results (100 Sample Evaluation)
