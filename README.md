@@ -68,6 +68,17 @@ By improving DR-Unet104, we aim to:
 
 ---
 
+## 📈 Results (369 Sample Evaluation)
+
+| Architecture | WT DSC | ET DSC | TC DSC | HD95 WT | HD95 ET | HD95 TC |
+|--------------|--------|--------|--------|---------|---------|---------|
+| DR-Unet104 (Original) - Val | 0.8862 | 0.6757 | 0.6721 | 12.11 | 47.62 | 15.74 |
+| DR-Unet104 (Original) - Test| 0.8673 | 0.7514 | 0.7983 | 10.41 | 24.68 | 21.84 |
+| **Enhanced** - Val          | 0.7507 | 0.7209 | 0.6921 | 13.32 | 7.40 | 7.86 |
+| **Enhanced** - Test         | 0.7457 | 0.6864 | 0.6838 | 12.72 | 7.90  | 10.97  |
+
+---
+
 ## 🛠 Installation & Usage
 
 ```bash
