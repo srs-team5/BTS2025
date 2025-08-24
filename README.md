@@ -57,17 +57,6 @@ By improving DR-Unet104, we aim to:
 ![alt text](images/Fig-6b.png)
 ---
 
-## 📈 Results (100 Sample Evaluation)
-
-| Architecture | WT DSC | ET DSC | TC DSC | HD95 WT | HD95 ET | HD95 TC |
-|--------------|--------|--------|--------|---------|---------|---------|
-| DR-Unet104 (Original) - Val | 0.89 | 0.68 | 0.67 | 12.11 | 47.62 | 15.74 |
-| DR-Unet104 (Original) - Test| 0.87 | 0.75 | 0.80 | 10.41 | 24.68 | 21.84 |
-| **Enhanced** - Val          | 0.75 | 0.67 | 0.67 | 14.97 | 10.24 | 11.94 |
-| **Enhanced** - Test         | 0.81 | 0.77 | 0.78 | 10.09 | 4.45  | 5.48  |
-
----
-
 ## 📈 Results (369 Sample Evaluation)
 
 | Architecture | WT DSC | ET DSC | TC DSC | HD95 WT | HD95 ET | HD95 TC |
